@@ -14,27 +14,27 @@ const Skills = () => (
       <h3>Programming</h3>
       <div className="programming-skills-row">
         <div className="skill-item">
-          <img src="/images/csharp.png" alt="C#" />
+          <img src={process.env.PUBLIC_URL + "/images/csharp.png"} alt="C#" />
           <span>C#</span>
         </div>
         <div className="skill-item">
-          <img src="/images/java.png" alt="Java" />
+          <img src={process.env.PUBLIC_URL + "/images/java.png"} alt="Java" />
           <span>Java</span>
         </div>
         <div className="skill-item">
-          <img src="/images/html.png" alt="HTML" />
+          <img src={process.env.PUBLIC_URL + "/images/html.png"} alt="HTML" />
           <span>HTML</span>
         </div>
         <div className="skill-item">
-          <img src="/images/css.png" alt="CSS" />
+          <img src={process.env.PUBLIC_URL + "/images/css.png"} alt="CSS" />
           <span>CSS</span>
         </div>
         <div className="skill-item">
-          <img src="/images/javascript.png" alt="JavaScript" />
+          <img src={process.env.PUBLIC_URL + "/images/javascript.png"} alt="JavaScript" />
           <span>JavaScript</span>
         </div>
         <div className="skill-item">
-          <img src="/images/sql.png" alt="SQL" />
+          <img src={process.env.PUBLIC_URL + "/images/sql.png"} alt="SQL" />
           <span>SQL</span>
         </div>
       </div>
@@ -43,31 +43,31 @@ const Skills = () => (
       <h3>Software</h3>
       <div className="programming-skills-row">
         <div className="skill-item">
-          <img src="/images/visualStudio.png" alt="Visual Studio" />
+          <img src={process.env.PUBLIC_URL + "/images/visualStudio.png"} alt="Visual Studio" />
           <span>Visual Studio</span>
         </div>
         <div className="skill-item">
-          <img src="/images/netbeans.png" alt="NetBeans" />
+          <img src={process.env.PUBLIC_URL + "/images/netbeans.png"} alt="NetBeans" />
           <span>NetBeans</span>
         </div>
         <div className="skill-item">
-          <img src="/images/postGres.png" alt="PostgreSQL" />
+          <img src={process.env.PUBLIC_URL + "/images/postGres.png"} alt="PostgreSQL" />
           <span>PostgreSQL</span>
         </div>
         <div className="skill-item">
-          <img src="/images/microsoft.png" alt="Microsoft tools" />
+          <img src={process.env.PUBLIC_URL + "/images/microsoft.png"} alt="Microsoft tools" />
           <span>Microsoft tools</span>
         </div>
         <div className="skill-item">
-          <img src="/images/git.png" alt="Git" />
+          <img src={process.env.PUBLIC_URL + "/images/git.png"} alt="Git" />
           <span>Git</span>
         </div>
         <div className="skill-item">
-          <img src="/images/wireframe.png" alt="Wireframe" />
+          <img src={process.env.PUBLIC_URL + "/images/wireframe.png"} alt="Wireframe" />
           <span>Wireframe</span>
         </div>
         <div className="skill-item">
-          <img src="/images/postman.png" alt="Postman API" />
+          <img src={process.env.PUBLIC_URL + "/images/postman.png"} alt="Postman API" />
           <span>Postman API</span>
         </div>
       </div>
@@ -76,23 +76,23 @@ const Skills = () => (
       <h3>Soft Skills</h3>
       <div className="programming-skills-row">
         <div className="skill-item">
-          <img src="/images/commuication.png" alt="Communication" />
+          <img src={process.env.PUBLIC_URL + "/images/commuication.png"} alt="Communication" />
           <span>Communication</span>
         </div>
         <div className="skill-item">
-          <img src="/images/nego.png" alt="Negotiation" />
+          <img src={process.env.PUBLIC_URL + "/images/nego.png"} alt="Negotiation" />
           <span>Negotiation</span>
         </div>
         <div className="skill-item">
-          <img src="/images/collab.png" alt="Collaboration" />
+          <img src={process.env.PUBLIC_URL + "/images/collab.png"} alt="Collaboration" />
           <span>Collaboration</span>
         </div>
         <div className="skill-item">
-          <img src="/images/problem.png" alt="Problem-Solving" />
+          <img src={process.env.PUBLIC_URL + "/images/problem.png"} alt="Problem-Solving" />
           <span>Problem-Solving</span>
         </div>
         <div className="skill-item">
-          <img src="/images/time.png" alt="Time Management" />
+          <img src={process.env.PUBLIC_URL + "/images/time.png"} alt="Time Management" />
           <span>Time Management</span>
         </div>
       </div>
@@ -101,15 +101,15 @@ const Skills = () => (
       <h3>Language</h3>
       <div className="programming-skills-row">
         <div className="skill-item">
-          <img src="/images/english.png" alt="English" />
+          <img src={process.env.PUBLIC_URL + "/images/english.png"} alt="English" />
           <span>English C2</span>
         </div>
         <div className="skill-item">
-          <img src="/images/taiwan.png" alt="Chinese Mandarin" />
+          <img src={process.env.PUBLIC_URL + "/images/taiwan.png"} alt="Chinese Mandarin" />
           <span>Chinese Mandarin C2</span>
         </div>
         <div className="skill-item">
-          <img src="/images/spain.png" alt="Spanish" />
+          <img src={process.env.PUBLIC_URL + "/images/spain.png"} alt="Spanish" />
           <span>Spanish A1</span>
         </div>
       </div>

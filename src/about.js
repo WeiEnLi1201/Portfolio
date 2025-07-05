@@ -13,7 +13,7 @@ const About = () => (
     <h2>About Me</h2>
     <div style={{ textAlign: "center", marginBottom: 20 }}>
       <img
-        src="/images/profile.png"
+        src={process.env.PUBLIC_URL + "/images/profile.png"}
         alt="Li Wei En Profile Picture"
         style={{
           width: 150,
@@ -25,10 +25,10 @@ const About = () => (
       />
       {/* Flags Row */}
       <div style={{ marginTop: 10 }}>
-        <img src="/images/taiwan.png" alt="Taiwan Flag" style={{ width: 30, height: 20, margin: "0 5px" }} />
-        <img src="/images/singapore.png" alt="Singapore Flag" style={{ width: 30, height: 20, margin: "0 5px" }} />
-        <img src="/images/korea.png" alt="Korea Flag" style={{ width: 30, height: 20, margin: "0 5px" }} />
-        <img src="/images/spain.png" alt="Spain Flag" style={{ width: 30, height: 20, margin: "0 5px" }} />
+        <img src={process.env.PUBLIC_URL + "/images/taiwan.png"} alt="Taiwan Flag" style={{ width: 30, height: 20, margin: "0 5px" }} />
+        <img src={process.env.PUBLIC_URL + "/images/singapore.png"} alt="Singapore Flag" style={{ width: 30, height: 20, margin: "0 5px" }} />
+        <img src={process.env.PUBLIC_URL + "/images/korea.png"} alt="Korea Flag" style={{ width: 30, height: 20, margin: "0 5px" }} />
+        <img src={process.env.PUBLIC_URL + "/images/spain.png"} alt="Spain Flag" style={{ width: 30, height: 20, margin: "0 5px" }} />
       </div>
     </div>
     <div style={{ textAlign: "center", maxWidth: 700, margin: "0 auto" }}>

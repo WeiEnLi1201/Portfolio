@@ -14,19 +14,19 @@ const Education = () => (
     <h2>Education</h2>
     <div className="education-container">
       <div className="education-card">
-        <img src="/images/uab.png" alt="Autonomous University of Barcelona Logo" className="school-logo" />
+        <img src={process.env.PUBLIC_URL + "/images/uab.png"} alt="Autonomous University of Barcelona Logo" className="school-logo" />
         <h3>Master&apos;s in International Business Management</h3>
         <p><strong>Autonomous University of Barcelona</strong></p>
         <p>Graduated: 2024</p>
       </div>
       <div className="education-card">
-        <img src="/images/smu.png" alt="Singapore Management University Logo" className="school-logo" />
+        <img src={process.env.PUBLIC_URL + "/images/smu.png"} alt="Singapore Management University Logo" className="school-logo" />
         <h3>Bachelor&apos;s in Information Systems</h3>
         <p><strong>Singapore Management University (SMU)</strong></p>
         <p>Graduated: 2020</p>
       </div>
       <div className="education-card">
-        <img src="/images/nyp.png" alt="Nanyang Polytechnic Logo" className="school-logo" />
+        <img src={process.env.PUBLIC_URL + "/images/nyp.png"} alt="Nanyang Polytechnic Logo" className="school-logo" />
         <h3>Diploma in Information Technology</h3>
         <p><strong>Nanyang Polytechnic (NYP)</strong></p>
         <p>Graduated: 2016</p>
